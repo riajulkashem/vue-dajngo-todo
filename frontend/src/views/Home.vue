@@ -1,6 +1,6 @@
 <template>
     <div class="home container">
-        <h1 class="title text-center mt-5">Django Vue Todo @RK</h1>
+        <h1 class="title text-center mt-5">Vuengo Todo @RK</h1>
         <hr>
         <div class="row mt-5">
             <div class="col-md-6 offset-3">
