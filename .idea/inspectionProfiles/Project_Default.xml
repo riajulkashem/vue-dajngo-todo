@@ -1,0 +1,71 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="110" name="JavaScript" />
+        <language minSize="141" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="v-on:click" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="super.get_context_data" />
+          <option value="_importlib_modulespec.ModuleType.views" />
+          <option value="str.as_view" />
+          <option value="django.contrib.auth.models.User.institute" />
+          <option value="utilities.mixins.SameUserOnlyMixin.get_object" />
+          <option value="utilities.mixins.SameUserOnlyMixin.request" />
+          <option value="object.dispatch" />
+          <option value="django.contrib.auth.models.User.role" />
+          <option value="utilities.mixins.InstituteAdminRequired.get_object" />
+          <option value="utilities.mixins.InstituteAdminRequired.request" />
+          <option value="django.contrib.auth.mixins.AccessMixin.dispatch" />
+          <option value="object.get_queryset" />
+          <option value="django.contrib.auth.models.User.auth_token" />
+          <option value="academic.serializers.KlassSerializer.request" />
+          <option value="modulefinder.Module.models" />
+          <option value="django.contrib.auth.models.User.phone" />
+          <option value="tests.utils.InstituteAPITestCase.assertEqual" />
+          <option value="tests.utils.InstituteAPITestCase.assertNotEqual" />
+          <option value="tests.utils.InstituteAPITestCase.seri" />
+          <option value="administrator.models.FeeHead.__add__" />
+          <option value="utilities.filters.PaginationHandlerMixin.request" />
+          <option value="utilities.filters.PaginationHandlerMixin.pagination_class" />
+          <option value="utilities.serializers.InstituteBaseSerializer.Meta" />
+          <option value="str.amount" />
+          <option value="str.pk" />
+          <option value="str.klass" />
+          <option value="str.budget" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
